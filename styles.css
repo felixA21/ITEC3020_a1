@@ -3,23 +3,10 @@
   margin: 0px;
 }
 
-.carousel-title1 {
-  color: rgb(226, 190, 13);
-  position: relative;
-  margin-bottom: 10px;
+body {
+  font-family: "Poppins";
 }
 
-.carousel-title2 {
-  color: rgb(243, 243, 243);
-  position: relative;
-  margin-bottom: 10px;
-}
-
-.carousel .carousel-item {
-  max-height: 1300px;
-}
-
-.carousel-item img {
-  object-fit: inherit;
-  position: relative;
+.title {
+  padding: 15px;
 }
