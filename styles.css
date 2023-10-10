@@ -1,42 +1,78 @@
-* {
-  padding: 0px;
-  margin: 0px;
-}
+/*body and fonts */
 
 body {
   font-family: "Poppins";
+  margin: 0;
+  padding: 0;
 }
+
+/*the navbar */
+
+.navbar {
+  background-color: black;
+  font-size: large;
+  font-family: "Poppins";
+}
+
+.navbar-brand img {
+  margin-top: 10px;
+}
+
+.navbar-toggler-icon {
+  background-color: white;
+}
+
+.navbar-nav .nav-link {
+  color: white;
+}
+
+/* product header */
 
 .title {
   padding: 15px;
 }
-.row {
-  padding: 20px;
+
+/* the product details */
+
+.row-product h2 {
+  font-size: 30px;
+  margin-top: 20px;
 }
 
-.row-product {
-  padding: 5px;
+.row-product h4 {
+  font-size: 20px;
+  margin-top: 10px;
+  color: gray;
 }
 
-.add-to-cart {
-  display: flex;
-  justify-content: left;
+/*size buttons */
+
+.row-product-btn h5 {
+  font-size: 18px;
+  margin-top: 20px;
+  padding: 8px;
 }
+
+.btn-light {
+  margin: 10px;
+  font-size: 16px;
+  padding: 5px 15px;
+}
+
+/* Add to Cart button */
 
 .add-to-cart-btn {
   display: flex;
   align-items: center;
-  margin: 30px 5px;
-  width: 300px;
+  margin: 5px;
+  margin-top: 20px;
+  width: 550px;
   height: 50px;
+  background-color: black;
+  color: aliceblue;
 }
 
-.description-item {
-  width: 300px;
-  background-color: rgb(231, 231, 231);
-  padding: 8px;
-  text-align: left;
-}
+/* Product Details button */
 
 .view-product-details {
   margin: 8px 10px;
@@ -45,6 +81,22 @@ body {
 .product-details-btn {
   background-color: transparent;
   border: none;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.description-item p {
+  font-size: 18px;
+  font-family: "Poppins";
+  width: 450px;
+  background-color: rgb(231, 231, 231);
+}
+
+/*product details list*/
+
+.list-item {
+  list-style: disc;
+  margin-top: 10px;
 }
 
 .view-product-details ul {
@@ -57,4 +109,11 @@ body {
 
 .product-details-btn:focus + ul {
   opacity: 1;
+}
+
+.btns {
+  display: flex;
+  justify-content: space-around;
+  padding: 0px;
+  margin: 0px;
 }
