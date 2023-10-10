@@ -1,176 +1,298 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins"
+      rel="stylesheet"
+    />
     <link href="styles.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+      integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm"
+      crossorigin="anonymous"
+    />
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
-    <title> SOLE MATE</title>
-</head>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <title>SOLE MATE</title>
+  </head>
 
-<body>
+  <body>
     <nav class="navbar navbar-expand-sm navbar-dark bg-default">
-        <a href="#" clas="navbar-brand mb-0 h1">
-            <img class="d-inline-block align-top" src="images/logo.png" width="80px" height="80px" />
-        </a>
-        <button type="button" data-toggle="collapse" data-target="#navbarNav" class="navbar-toggler" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon">
-      </span>
-    </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a href="#" class="nav-link">New Arrivals</a>
-                </li>
-                <li class="nav-item active">
-                    <a href="#" class="nav-link">Products</a>
-                </li>
-                <li class="nav-item active">
-                    <a href="#" class="nav-link"> Features </a>
-                </li>
-                <li class="nav-item active">
-                    <a href="#" class="nav-link"> About Us </a>
-                </li>
-            </ul>
-        </div>
-        <div>
-            <form class="d-flex">
-                <input type="text" class="form-control me-2" placeholder="Search" />
-                <button type="submit">&#128269; </button>
-            </form>
-        </div>
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-                <a class="btn btn-md btn-primary ml-4 text-light"> View Cart <img class="d-inline-block align-top" src="images/cart.png" width="30px" height="30px" />
-        </a>
-            </li>
+      <a href="#" clas="navbar-brand mb-0 h1">
+        <img
+          class="d-inline-block align-top"
+          src="images/logo.png"
+          width="80px"
+          height="80px"
+        />
+      </a>
+      <button
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        class="navbar-toggler"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"> </span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a href="#" class="nav-link">New Arrivals</a>
+          </li>
+          <li class="nav-item active">
+            <a href="#" class="nav-link">Products</a>
+          </li>
+          <li class="nav-item active">
+            <a href="#" class="nav-link"> Features </a>
+          </li>
+          <li class="nav-item active">
+            <a href="#" class="nav-link"> About Us </a>
+          </li>
         </ul>
+      </div>
+      <div>
+        <form class="d-flex">
+          <input type="text" class="form-control me-2" placeholder="Search" />
+          <button type="submit">&#128269;</button>
+        </form>
+      </div>
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="btn btn-md btn-primary ml-4 text-light">
+            View Cart
+            <img
+              class="d-inline-block align-top"
+              src="images/cart.png"
+              width="30px"
+              height="30px"
+            />
+          </a>
+        </li>
+      </ul>
     </nav>
-    
-        <br>
-        <!-- carousel image -->
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <div id="carouselActive" class="carousel slide" data-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img class="d-block w-100" src="images/lv1.png" alt="First slide" />
-                            </div>
-                            <div class="carousel-item">
-                                <img class="d-block w-100" src="images/lv2.png" alt="Second slide" />
-                            </div>
-                            <div class="carousel-item">
-                                <img class="d-block w-100" src="images/lv3.png" alt="Third slide" />
-                            </div>
-                        </div>
-                        <a class="carousel-control-prev" href="#carouselActive" role="button" data-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true">
-              </span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="carousel-control-next" href="#carouselActive" role="button" data-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true">
-              </span>
-                            <span class="sr-only">Next</span>
-                        </a>
-                        <a class="carousel-control-next" href="#carouselActive" role="button" data-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true">
-              </span>
-                            <span class="sr-only">Next</span>
-                        </a>
-                    </div>
-                </div>
-                <!-- product page -->
-                <div class="col-md-6">
-                    <div class="row-product">
-                        <h2>Louis Vuitton LV Trainer</h2>
-                        <h4>
-                            <i class="fa fa-usd" aria-hidden="true"> </i>1,560.00
-                        </h4>
-                    </div>
-                    <h5>Select size:</h5>
-                    <div class="btn-toolbar mb-3" role="toolbar" aria-label="Toolbar with button groups">
-                        <div class="btn-group mr-2" role="group" aria-label="First group">
-                        <button type="button" class="btn btn-light">4</button>
-                        <button type="button" class="btn btn-light">5</button>
-                        <button type="button" class="btn btn-light">5.5</button>
-                        <button type="button" class="btn btn-light">6</button>
-                        <button type="button" class="btn btn-light">6.5</button>
-                        <button type="button" class="btn btn-light">7</button>
-                        <button type="button" class="btn btn-light">7.5</button>
-                        <button type="button" class="btn btn-light">8</button>
-                    </div>
-                    <div class="btn-group mr-2" role="group" aria-label="First group">
 
-                        <button type="button" class="btn btn-light">8.5</button>
-                        <button type="button" class="btn btn-light">9</button>
-                        <button type="button" class="btn btn-light">9.5</button>
-                        <button type="button" class="btn btn-light">10</button>
-                        <button type="button" class="btn btn-light">10.5</button>
-                        <button type="button" class="btn btn-light">11</button>
-                        <button type="button" class="btn btn-light">11.5</button>
-                    
-                    </div>
-                    </div>
-                </div>
-                <div class="add-to-cart">
-                    <button type="submit" class="btn btn-default add-to-cart-btn"> Add to Cart </button>
-                    </div>
-                    <div class="view-product-details col-md-10">
-                        <button href="#" class="btn product-details-btn">
+    <br />
+    <!-- carousel image -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div id="carouselActive" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  class="d-block w-100"
+                  src="images/lv1.png"
+                  alt="First slide"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  class="d-block w-100"
+                  src="images/lv2.png"
+                  alt="Second slide"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  class="d-block w-100"
+                  src="images/lv3.png"
+                  alt="Third slide"
+                />
+              </div>
+            </div>
+            <a
+              class="carousel-control-prev"
+              href="#carouselActive"
+              role="button"
+              data-slide="prev"
+            >
+              <span class="carousel-control-prev-icon" aria-hidden="true">
+              </span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a
+              class="carousel-control-next"
+              href="#carouselActive"
+              role="button"
+              data-slide="next"
+            >
+              <span class="carousel-control-next-icon" aria-hidden="true">
+              </span>
+              <span class="sr-only">Next</span>
+            </a>
+            <a
+              class="carousel-control-next"
+              href="#carouselActive"
+              role="button"
+              data-slide="next"
+            >
+              <span class="carousel-control-next-icon" aria-hidden="true">
+              </span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+        <!-- product page -->
+        <div class="col-md-6">
+          <div class="row-product">
+            <h2>Louis Vuitton LV Trainer</h2>
+            <h4><i class="fa fa-usd" aria-hidden="true"> </i>1,560.00</h4>
+          </div>
+          <h5>Select size:</h5>
+          <div
+            class="btn-toolbar mb-3"
+            role="toolbar"
+            aria-label="Toolbar with button groups"
+          >
+            <div class="btn-group mr-2" role="group" aria-label="First group">
+              <button type="button" class="btn btn-light">4</button>
+              <button type="button" class="btn btn-light">5</button>
+              <button type="button" class="btn btn-light">5.5</button>
+              <button type="button" class="btn btn-light">6</button>
+              <button type="button" class="btn btn-light">6.5</button>
+              <button type="button" class="btn btn-light">7</button>
+              <button type="button" class="btn btn-light">7.5</button>
+              <button type="button" class="btn btn-light">8</button>
+            </div>
+            <div class="btn-group mr-2" role="group" aria-label="First group">
+              <button type="button" class="btn btn-light">8.5</button>
+              <button type="button" class="btn btn-light">9</button>
+              <button type="button" class="btn btn-light">9.5</button>
+              <button type="button" class="btn btn-light">10</button>
+              <button type="button" class="btn btn-light">10.5</button>
+              <button type="button" class="btn btn-light">11</button>
+              <button type="button" class="btn btn-light">11.5</button>
+            </div>
+          </div>
+          <div class="add-to-cart">
+            <button type="submit" class="btn btn-dark add-to-cart-btn">
+              Add to Cart
+            </button>
+          </div>
+          <div class="view-product-details col-md-10">
+            <button href="#" class="btn product-details-btn">
               <h6>Product details:</h6>
             </button>
-                        <!-- this will be hidden unless onClick is activated -->
-                        <ul class="discription-item ">
-                            <p> Incorporating a mix of Monogram denim and stamped calf leather, a new LV Trainer shoe is here to stay. </p>
-                            <li>Logo-stamped denim and leather</li>
-                            <li>LV signititure and initials around the shoe</li>
-                            <li>Rubber sole</li>
-                            <li>Colour Shown: white/Black</li>
-                            <li>Style:1A9JGG</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="container mt-5">
-                    <div class="col-md-12"> Similar Products You Might Like
-                    </div>
-                </div>
-                <div class="card" style="width: 18rem;">
-                    <img src="images/Dark-Mocha-sneakers.png" class="card-img-top" alt="Dark-Mocha-sneakers">
-                    <div class="card-body">
-                        <h5 class="card-title">Air Jordan 1 Retro High OG "Dark Mocha" sneakers</h5>
-                        <a href="#" class="btn btn-primary"> Add to cart</a>
-                    </div>
-                </div>
-                <div class="card" style="width: 18rem;">
-                    <img src="images/Yeezy-Slide-Pure.png" class="card-img-top" alt="Yeezy-Slide-Pure">
-                    <div class=" card-body ">
-                        <h5 class="card-title ">Adidas Yeezy Slide</h5>
-                        <a href="# " class="btn btn-primary "> Add to cart</a>
-                    </div>
-                </div>
-                <div class="card " style="width: 18rem; ">
-                    <img src="images/Unicorn-trainers.png" class="card-img-top " alt="Unicorn-trainers">
-                    <div class="card-body ">
-                        <h5 class="card-title ">Unicorn trainers in neoprene and monogram leather</h5>
-                        <a href="# " class="btn btn-primary "> Add to cart</a>
-                    </div>
-                </div>
-                <!-- feature page -->
-                <!-- Optional JavaScript -->
-                <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-                <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js " integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN " crossorigin="anonymous ">
-                </script>
-                <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js " integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q " crossorigin="anonymous ">
-                </script>
-                <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js " integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl " crossorigin="anonymous ">
-                </script>
-</body>
+            <!-- this will be hidden unless onClick is activated -->
+            <ul class="discription-item">
+              <p>
+                Incorporating a mix of Monogram denim and stamped calf leather,
+                a new LV Trainer shoe is here to stay.
+              </p>
+              <li>Logo-stamped denim and leather</li>
+              <li>LV signititure and initials around the shoe</li>
+              <li>Rubber sole</li>
+              <li>Colour Shown: white/Black</li>
+              <li>Style:1A9JGG</li>
+            </ul>
+          </div>
+        </div>
+      </div>
 
+      <div class="container">
+        <div class="col-mt-5">
+          <h5>Similar Products You Might Like:</h5>
+        </div>
+      </div>
+
+      <div class="row mt-5 container-features">
+        <div class="col-md-3">
+          <div class="card"">
+          <img
+            src="images/crocs.webp"
+            class="card-img-top img-fluid"
+            alt="crocs-img"
+            
+          />
+          <div class="card-body">
+            <h5 class="card-title">
+             Crocs Pellex CLog By SB Crocodile
+            </h5>
+            <a href="#" class="btn btn-dark"> Add to cart</a>
+          </div>
+        </div>
+      </div>
+
+     
+
+        <div class="col-md-3">
+          <div class="card"">
+            <img
+            src="images/ajblue.webp"
+            class="card-img-top img-fluid"
+            alt="aj-Slide-Pure"
+        
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                Jordan 1 Mid University Blue Black
+              </h5>
+              <a href="#" class="btn btn-dark"> Add to cart</a>
+            </div>
+          </div>
+        </div>
+     
+        
+      
+        <div class="col-md-3">
+      <div class="card"">
+        <img
+        src="images/yeezy.webp"
+        class="card-img-top img-fluid"
+        alt="yeezy-img"
+      />
+      <div class="card-body">
+        <h5 class="card-title">
+         Adidas Yeezy 450 Cloud White
+        </h5>
+        <a href="#" class="btn btn-dark"> Add to cart</a>
+      </div>
+    </div>
+  </div>
+    </div>
+
+    <footer class="bg-dark expand-mt-5">
+      <div class="container text-light text-center">
+        <p class="display-5 mb-3">About Us</p>
+        <small class="text-white-50">&copy; Sole Mate</small>
+      </div>
+
+
+    </footer>
+
+
+    <!-- feature page -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js "
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN "
+      crossorigin="anonymous "
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js "
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q "
+      crossorigin="anonymous "
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js "
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl "
+      crossorigin="anonymous "
+    ></script>
+  </body>
 </html>
